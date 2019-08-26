@@ -1,0 +1,33 @@
+body {
+  margin-top: 0px;
+  color: #28265D;
+  background-color: #FBF6EB;
+  font-size: 150%;
+}
+
+body * {
+  color: #28265D;
+  border-color: #28265D;
+}
+
+body a:link {
+  font-weight: bold;
+}
+
+body a:visited {
+  color: #4C2669;
+}
+
+body a:hover, a:focus {
+  color: #DF1A62;
+
+}
+
+body a:active {
+  color: #DF1A62;
+}
+
+#app {
+  font-family: 'roboto';
+  margin-top: 0px;
+}

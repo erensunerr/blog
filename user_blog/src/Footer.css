@@ -1,0 +1,19 @@
+#footer {
+  margin: 0px auto;
+  width: 30%;
+  border-top: solid 3px;
+  text-align: center;
+  height: 70px;
+  border-color: #DF1A62;
+}
+
+#footer h2 {
+  font-size: 90%;
+}
+
+
+#footer img {
+  width: 40px;
+  margin: 0px 10px;
+  border-radius: 20px;
+}

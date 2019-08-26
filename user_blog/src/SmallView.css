@@ -1,0 +1,13 @@
+.small-view-button {
+  border: 1px solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: #28265D;
+  font-size: 150%;
+  color: #FBF6EB;
+}
+
+.small-view-button:hover {
+  background-color: #49668C;
+}
