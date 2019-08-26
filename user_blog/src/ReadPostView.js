@@ -30,9 +30,11 @@ export default class ReadPostView extends React.Component {
         this.state.body.map(
           (bodyComp) => {
             if (bodyComp.src){
-              return (<img src={bodyComp.src} alt={bodyComp.alt} key={this.state.body.indexOf(bodyComp)}/>);
+              console.log("PARAGRAPH",this.props.title +"-"+this.state.body.indexOf(bodyComp))
+              return (<img src={bodyComp.src} alt={bodyComp.alt} key={this.props.title +"-"+this.state.body.indexOf(bodyComp)}/>);
             } else{
-              return (<p key={this.state.body.indexOf(bodyComp)} dangerouslySetInnerHTML={{ __html: bodyComp }}></p>)
+              console.log("IMAGE",this.props.title +"-"+this.state.body.indexOf(bodyComp))
+              return (<p key={this.props.title +"-"+this.state.body.indexOf(bodyComp)} dangerouslySetInnerHTML={{ __html: bodyComp }}></p>)
             }
           }
         )

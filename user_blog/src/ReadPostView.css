@@ -17,6 +17,11 @@
   color: #FBF6EB;
 }
 
+#read-post-view button:hover {
+  background-color: #44419E;
+
+}
+
 #read-post-view img {
   margin: 25px auto;
   display: block;
